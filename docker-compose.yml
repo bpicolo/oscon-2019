@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  proxy:
+    build:
+      context: ./containers/grpcwebproxy
+    ports:
+      - "8080:8080"

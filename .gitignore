@@ -1,2 +1,4 @@
 .vscode
 venv
+proto/*.py
+!proto/__init__.py
