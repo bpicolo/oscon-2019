@@ -1,0 +1,7 @@
+aioconsole==0.1.14
+grpcio==1.21.1
+grpcio-tools==1.21.1
+grpclib==0.3.0rc4
+notebook==5.7.8
+pyzmq==17.1.2
+uvloop==0.12.2
