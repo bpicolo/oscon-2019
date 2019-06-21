@@ -1,7 +1,7 @@
 protogen: protogen-python protogen-ts
 
 protogen-python: venv
-	./venv/bin/python -m grpc_tools.protoc -I . --python_out=./ --python_grpc_out=./ --grpc_python_out=./ proto/*.proto
+	./venv/bin/python -m grpc_tools.protoc -I . --python_out=./ --grpc_python_out=./ proto/*.proto
 
 protogen-ts:
 	protoc \
