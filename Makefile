@@ -17,6 +17,9 @@ venv:
 
 clean: clean-venv clean-generated
 
+clean-pycache:
+	find . | grep -E "(__pycache__|\.pyc|\.pyo$\)" | xargs rm -rf
+
 clean-venv:
 	rm -rf venv
 
