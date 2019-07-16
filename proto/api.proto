@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+service TinyKafka {
+    rpc SendMessage(SendMessageRequest) returns (SendMessageResponse);
+    rpc Watch(WatchRequest) returns (stream WatchResponse);
+}
+
+message SendMessageRequest {
+    string message = 1;
+}
+
+message SendMessageResponse {
+}
+
+
+message WatchRequest {
+}
+
+message WatchResponse {
+    string message = 1;
+}
