@@ -15,7 +15,3 @@ pip install -r requirements.txt
 ```
 
 You'll need nodejs installed for the frontend portion (`v12.4.0` was used to prepare this talk).
-
-## Getting Started
-
-First, we'll need a virtualenv
